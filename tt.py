@@ -67,4 +67,4 @@ def create(ballCount, ballsSubdivisions, ballsSize, horizontalSpaceSize, vertica
             if random.uniform(0,1) < connectionRate:
                 connect(pointt, point, connectionRadius, connectionSteps)
 
-create(20, 3, 1, 30, 10, .1, 12, 2);
+create(20, 3, 1, 30, 70, .1, 12, .04);
